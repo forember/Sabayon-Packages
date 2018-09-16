@@ -1,0 +1,93 @@
+ACCEPT_KEYWORDS: amd64 ~amd64
+ACCEPT_LICENSE: *
+ACCEPT_PROPERTIES: * -interactive
+ACCEPT_RESTRICT: *
+ARCH: amd64
+CBUILD: x86_64-pc-linux-gnu
+CHOST: x86_64-pc-linux-gnu
+CONFIG_PROTECT: /etc /etc/conf.d /etc/entropy /etc/init.d /usr/share/config/kdm /usr/share/gnupg/qualified.txt
+CONFIG_PROTECT_MASK: /etc/ca-certificates.conf /etc/dconf /etc/env.d /etc/fonts/fonts.conf /etc/gconf /etc/gentoo-release /etc/revdep-rebuild /etc/sandbox.d /etc/skel /etc/terminfo /etc/texmf/language.dat.d /etc/texmf/language.def.d /etc/texmf/updmap.d /etc/texmf/web2c /lib/modules
+ELIBC: glibc
+FEATURES: assume-digests binpkg-logs buildpkg compressdebug config-protect-if-modified distlocks ebuild-locks fixlafiles merge-sync multilib-strict news parallel-fetch preserve-libs protect-owned sandbox sfperms splitdebug strict unknown-features-warn unmerge-logs unmerge-orphans userfetch usersandbox usersync xattr
+GENTOO_MIRRORS: ftp://ftp.spline.inf.fu-berlin.de/mirrors/gentoo/ rsync://gentoo.bloodhost.ru/gentoo-distfiles ftp://gentoo.mirrors.tds.net/gentoo ftp://ftp.halifax.rwth-aachen.de/gentoo/ rsync://mirror.neolabs.kz/gentoo http://ftp.gentoo.bg/ http://ftp.cc.uoc.gr/mirrors/linux/gentoo/ ftp://ftp.cc.uoc.gr/mirrors/linux/gentoo/ ftp://mirrors.tera-byte.com/pub/gentoo
+IUSE_IMPLICIT: abi_x86_64 prefix prefix-chain prefix-guest
+KERNEL: linux
+PACKAGES: 4
+PROFILE: default/linux/amd64/17.0/desktop
+TIMESTAMP: 1537082832
+USE: X a52 aac abi_x86_32 abi_x86_64 accessibility acl acpi aiglx aim alsa alsa_cards_darla20 alsa_cards_darla24 alsa_cards_emu10k1 alsa_cards_emu10k1x alsa_cards_gina20 alsa_cards_gina24 alsa_cards_hdsp alsa_cards_hdspm alsa_cards_ice1712 alsa_cards_indigo alsa_cards_indigoio alsa_cards_layla20 alsa_cards_layla24 alsa_cards_mia alsa_cards_mixart alsa_cards_mona alsa_cards_pcxhr alsa_cards_rme32 alsa_cards_rme96 alsa_cards_sb16 alsa_cards_sbawe alsa_cards_sscape alsa_cards_usb-usx2y alsa_cards_usbusx2y alsa_cards_vx222 amd64 apache2_modules_actions apache2_modules_alias apache2_modules_auth_basic apache2_modules_authn_alias apache2_modules_authn_anon apache2_modules_authn_core apache2_modules_authn_dbm apache2_modules_authn_default apache2_modules_authn_file apache2_modules_authz_core apache2_modules_authz_dbm apache2_modules_authz_default apache2_modules_authz_groupfile apache2_modules_authz_host apache2_modules_authz_owner apache2_modules_authz_user apache2_modules_autoindex apache2_modules_cache apache2_modules_cgi apache2_modules_cgid apache2_modules_dav apache2_modules_dav_fs apache2_modules_dav_lock apache2_modules_deflate apache2_modules_dir apache2_modules_disk_cache apache2_modules_env apache2_modules_expires apache2_modules_ext_filter apache2_modules_file_cache apache2_modules_filter apache2_modules_headers apache2_modules_include apache2_modules_info apache2_modules_log_config apache2_modules_logio apache2_modules_mem_cache apache2_modules_mime apache2_modules_mime_magic apache2_modules_negotiation apache2_modules_rewrite apache2_modules_setenvif apache2_modules_socache_shmcb apache2_modules_speling apache2_modules_status apache2_modules_unique_id apache2_modules_unixd apache2_modules_userdir apache2_modules_usertrack apache2_modules_vhost_alias apache2_mpms_prefork artswrappersuid audiofile avahi bash-completion berkdb bidi bluetooth bluray bzip2 cairo calligra_features_karbon calligra_features_plan calligra_features_sheets calligra_features_stage calligra_features_words cameras_adc65 cameras_agfa_cl20 cameras_aox cameras_barbie cameras_canon cameras_casio_qv cameras_clicksmart310 cameras_digigr8 cameras_digita cameras_dimagev cameras_dimera3500 cameras_directory cameras_enigma13 cameras_fuji cameras_gsmart300 cameras_hp215 cameras_iclick cameras_jamcam cameras_jd11 cameras_kodak_dc120 cameras_kodak_dc210 cameras_kodak_dc240 cameras_kodak_dc3200 cameras_kodak_ez200 cameras_konica cameras_konica_qm150 cameras_largan cameras_lg_gsm cameras_mars cameras_mustek cameras_panasonic_coolshot cameras_panasonic_dc1000 cameras_panasonic_dc1580 cameras_panasonic_l859 cameras_pccam300 cameras_pccam600 cameras_polaroid_pdc320 cameras_polaroid_pdc640 cameras_polaroid_pdc700 cameras_ptp2 cameras_ricoh cameras_ricoh_g3 cameras_samsung cameras_sierra cameras_sipix_blink cameras_sipix_blink2 cameras_sipix_web2 cameras_smal cameras_sonix cameras_sony_dscf1 cameras_sony_dscf55 cameras_soundvision cameras_spca50x cameras_sq905 cameras_stv0674 cameras_stv0680 cameras_sx330z cameras_template cameras_toshiba_pdrm11 cdda cddb cdr cjk cli collectd_plugins_df collectd_plugins_interface collectd_plugins_irq collectd_plugins_load collectd_plugins_memory collectd_plugins_rrdtool collectd_plugins_swap collectd_plugins_syslog cpu_flags_x86_mmx cpu_flags_x86_mmxext cpu_flags_x86_sse cpu_flags_x86_sse2 cpudetection crypt cups cxx dbus dga dri dts dv dvb dvd dvdr dvdread dvi elibc_glibc emboss encode exif fam fame fat ffmpeg firefox flac foomatic-db fortran freetype gcj gdbm gif gimpprint glamor gmp gnutls gphoto2 gpm gpsd_protocols_aivdm gpsd_protocols_ashtech gpsd_protocols_earthmate gpsd_protocols_evermore gpsd_protocols_fv18 gpsd_protocols_garmin gpsd_protocols_garmintxt gpsd_protocols_gpsclock gpsd_protocols_isync gpsd_protocols_itrax gpsd_protocols_mtk3301 gpsd_protocols_navcom gpsd_protocols_nmea gpsd_protocols_ntrip gpsd_protocols_oceanserver gpsd_protocols_oldstyle gpsd_protocols_oncore gpsd_protocols_rtcm104v2 gpsd_protocols_rtcm104v3 gpsd_protocols_sirf gpsd_protocols_skytraq gpsd_protocols_superstar2 gpsd_protocols_timing gpsd_protocols_tnt gpsd_protocols_tripmate gpsd_protocols_tsip gpsd_protocols_ublox gpsd_protocols_ubx grub_platforms_efi-32 grub_platforms_efi-64 grub_platforms_pc gsm gtk hfs http2 iconv icq ieee1394 imap inotify input_devices_evdev input_devices_void ipod ipv6 irc irda jabber jack jfs joystick jpeg kdeenablefinal kdehiddenvisibility kerberos kernel_linux l10n_af l10n_ar l10n_az l10n_bg l10n_bn l10n_br l10n_bs l10n_ca l10n_cs l10n_cy l10n_da l10n_de l10n_el l10n_en l10n_en-GB l10n_eo l10n_es l10n_es-AR l10n_es-ES l10n_et l10n_eu l10n_fa l10n_fi l10n_fr l10n_fy l10n_ga l10n_gl l10n_gu l10n_he l10n_hi l10n_hr l10n_hu l10n_is l10n_it l10n_ja l10n_kk l10n_km l10n_ko l10n_lt l10n_lv l10n_mk l10n_mn l10n_ms l10n_nb l10n_nds l10n_nl l10n_nn l10n_pa l10n_pl l10n_pt l10n_pt-BR l10n_pt-PT l10n_ro l10n_ru l10n_rw l10n_se l10n_sk l10n_sl l10n_sr l10n_sr-Latn l10n_ss l10n_sv l10n_ta l10n_tg l10n_tr l10n_uk l10n_uz l10n_vi l10n_zh l10n_zh-CN l10n_zh-TW lame lcd lcd_devices_bayrad lcd_devices_cfontz lcd_devices_cfontz633 lcd_devices_glk lcd_devices_hd44780 lcd_devices_lb216 lcd_devices_lcdm001 lcd_devices_mtxorb lcd_devices_ncurses lcd_devices_text lcms ldap libnotify libreoffice_extensions_pdfimport libreoffice_extensions_presenter-console libreoffice_extensions_presenter-minimizer libreoffice_extensions_wiki-publisher libtirpc lirc_devices_audio lirc_devices_audio_alsa lirc_devices_devinput lirc_devices_pctv live lm_sensors logind lzo mad mail matroska mjpeg mmx mng modules mozdevelop mp3 mp3rtp mp4 mpeg msn multilib musepack musicbrainz ncurses network nls nptl nsplugin ntfs office_implementation_libreoffice ogg openal openexr opengl openmp opus pam pango pcmcia pcre pda pdf perl php_targets_php5-6 png policykit postgres_targets_postgres10 postgres_targets_postgres9_5 ppds pulseaudio python python_single_target_python3_5 python_targets_python2_7 python_targets_python3_5 qemu_softmmu_targets_arm qemu_softmmu_targets_cris qemu_softmmu_targets_i386 qemu_softmmu_targets_m68k qemu_softmmu_targets_microblaze qemu_softmmu_targets_mips qemu_softmmu_targets_mips64 qemu_softmmu_targets_mips64el qemu_softmmu_targets_mipsel qemu_softmmu_targets_ppc qemu_softmmu_targets_ppc64 qemu_softmmu_targets_ppcemb qemu_softmmu_targets_sh4 qemu_softmmu_targets_sh4eb qemu_softmmu_targets_sparc qemu_softmmu_targets_sparc64 qemu_softmmu_targets_x86_64 qemu_user_targets_alpha qemu_user_targets_arm qemu_user_targets_armeb qemu_user_targets_cris qemu_user_targets_i386 qemu_user_targets_m68k qemu_user_targets_microblaze qemu_user_targets_mips qemu_user_targets_mipsel qemu_user_targets_ppc qemu_user_targets_ppc64 qemu_user_targets_ppc64abi32 qemu_user_targets_sh4 qemu_user_targets_sh4eb qemu_user_targets_sparc qemu_user_targets_sparc32plus qemu_user_targets_sparc64 qemu_user_targets_x86_64 qt5 rar rdesktop readline real reiserfs rss ruby_targets_ruby23 scanner sdl seccomp slp speex spell ssl startup-notification stream svg sysfs systemd tcpd theora tiff truetype udev udisks unicode upower usb userland_GNU v4l v4l2 video_cards_fbdev video_cards_radeon video_cards_radeonsi video_cards_vesa visualization vorbis wayland wifi win32codecs wmf wxwidgets x264 x265 xattr xcb xfs xine xinerama xml xpm xprint xtables_addons_account xtables_addons_chaos xtables_addons_condition xtables_addons_delude xtables_addons_dhcpmac xtables_addons_fuzzy xtables_addons_geoip xtables_addons_iface xtables_addons_ipmark xtables_addons_ipp2p xtables_addons_ipset xtables_addons_ipv4options xtables_addons_length2 xtables_addons_logmark xtables_addons_lscan xtables_addons_pknock xtables_addons_psd xtables_addons_quota2 xtables_addons_rawnat xtables_addons_steal xtables_addons_sysrq xtables_addons_tarpit xtables_addons_tee xulrunner xv xvid xvmc yahoo zeroconf zlib
+USERLAND: GNU
+USE_EXPAND: ABI_MIPS ABI_PPC ABI_S390 ABI_X86 ALSA_CARDS APACHE2_MODULES APACHE2_MPMS CALLIGRA_EXPERIMENTAL_FEATURES CALLIGRA_FEATURES CAMERAS COLLECTD_PLUGINS CPU_FLAGS_ARM CPU_FLAGS_X86 CURL_SSL ELIBC ENLIGHTENMENT_MODULES FFTOOLS GPSD_PROTOCOLS GRUB_PLATFORMS INPUT_DEVICES KERNEL L10N LCD_DEVICES LIBREOFFICE_EXTENSIONS LIRC_DEVICES LLVM_TARGETS MONKEYD_PLUGINS NETBEANS_MODULES NGINX_MODULES_HTTP NGINX_MODULES_MAIL NGINX_MODULES_STREAM OFED_DRIVERS OFFICE_IMPLEMENTATION OPENMPI_FABRICS OPENMPI_OFED_FEATURES OPENMPI_RM PHP_TARGETS POSTGRES_TARGETS PYTHON_SINGLE_TARGET PYTHON_TARGETS QEMU_SOFTMMU_TARGETS QEMU_USER_TARGETS ROS_MESSAGES RUBY_TARGETS SANE_BACKENDS USERLAND UWSGI_PLUGINS VIDEO_CARDS VOICEMAIL_STORAGE XFCE_PLUGINS XTABLES_ADDONS
+USE_EXPAND_HIDDEN: ABI_MIPS ABI_PPC ABI_S390 CPU_FLAGS_ARM ELIBC KERNEL USERLAND
+USE_EXPAND_IMPLICIT: ARCH ELIBC KERNEL USERLAND
+USE_EXPAND_UNPREFIXED: ARCH
+USE_EXPAND_VALUES_ARCH: alpha amd64 amd64-fbsd amd64-linux arm arm-linux arm64 hppa ia64 m68k m68k-mint mips ppc ppc64 ppc64-linux ppc-aix ppc-macos s390 sh sparc sparc64-solaris sparc-solaris x64-cygwin x64-macos x64-solaris x86 x86-cygwin x86-fbsd x86-linux x86-macos x86-solaris x86-winnt
+USE_EXPAND_VALUES_ELIBC: AIX bionic Cygwin Darwin DragonFly FreeBSD glibc HPUX Interix mingw mintlib musl NetBSD OpenBSD SunOS uclibc Winnt
+USE_EXPAND_VALUES_KERNEL: AIX Darwin FreeBSD freemint HPUX linux NetBSD OpenBSD SunOS Winnt
+USE_EXPAND_VALUES_USERLAND: BSD GNU
+VERSION: 0
+
+BUILD_TIME: 1537082734
+CPV: net-misc/dropbox-cli-1.6.0-r1
+DEFINED_PHASES: install
+EAPI: 6
+IUSE: python_targets_python2_7
+KEYWORDS: ~amd64 ~x86
+LICENSE: GPL-3
+MD5: 307a55f87482ccf56f83f7fd119963ca
+RDEPEND: net-misc/dropbox >=dev-lang/python-2.7.5-r2:2.7 >=dev-lang/python-exec-2:2/2=[python_targets_python2_7(-),-python_single_target_python2_7(-)] dev-python/pygtk[python_targets_python2_7(-),-python_single_target_python2_7(-)] dev-python/pygobject:2[python_targets_python2_7(-),-python_single_target_python2_7(-)]
+SHA1: 3b6fd300014c53b5bc65a8d3b8a26b8825523b75
+SIZE: 40778
+USE: abi_x86_64 amd64 elibc_glibc kernel_linux python_targets_python2_7 userland_GNU
+MTIME: 1537082734
+REPO: gentoo
+
+BUILD_TIME: 1537082832
+CPV: sys-apps/findutils-glocate-4.6.0-r1
+DEFINED_PHASES: configure prepare setup
+DEPEND: virtual/libintl sys-devel/gettext
+EAPI: 5
+IUSE: nls selinux static test
+KEYWORDS: alpha amd64 arm arm64 hppa ia64 m68k ~mips ppc ppc64 s390 sh sparc x86 ~ppc-aix ~x64-cygwin ~amd64-fbsd ~x86-fbsd ~amd64-linux ~x86-linux ~ppc-macos ~x64-macos ~x86-macos ~m68k-mint ~sparc-solaris ~sparc64-solaris ~x64-solaris ~x86-solaris
+LICENSE: GPL-3+
+MD5: 54562d41bc4111a04846f77807db7c89
+RDEPEND: virtual/libintl
+REQUIRES: x86_64: libc.so.6
+SHA1: a9487734c8f1f2c0f334c565819a987ffd4ae68c
+SIZE: 251107
+USE: abi_x86_64 amd64 elibc_glibc kernel_linux nls userland_GNU
+MTIME: 1537082832
+REPO: LocalOverlay
+
+BUILD_TIME: 1537082689
+CPV: x11-misc/sxlock-1.1
+DEFINED_PHASES: -
+DEPEND: x11-libs/libX11 x11-libs/libXext x11-libs/libXrandr sys-libs/pam
+EAPI: 5
+KEYWORDS: ~amd64
+MD5: a747ecc2d334fbbd018120092920b51f
+RDEPEND: x11-libs/libX11 x11-libs/libXext x11-libs/libXrandr sys-libs/pam
+REQUIRES: x86_64: libX11.so.6 libXext.so.6 libXrandr.so.2 libc.so.6 libpam.so.0
+SHA1: e11b0539d6644ddb3125b2639ffaaf722030f990
+SIZE: 32636
+USE: abi_x86_64 amd64 elibc_glibc kernel_linux userland_GNU
+MTIME: 1537082689
+REPO: andjscott
+
+BUILD_TIME: 1537082628
+CPV: x11-misc/xss-lock-0.3.0_p20140302-r1
+DEFINED_PHASES: compile configure install prepare test unpack
+DEPEND: dev-libs/glib:2 x11-libs/libxcb x11-libs/xcb-util dev-python/docutils sys-devel/make >=dev-util/cmake-3.9.6
+EAPI: 6
+IUSE: +man
+KEYWORDS: amd64 ~x86
+LICENSE: MIT
+MD5: f687158d765ed32ac3392375600f8384
+RDEPEND: dev-libs/glib:2 x11-libs/libxcb x11-libs/xcb-util
+REQUIRES: x86_64: libc.so.6 libgio-2.0.so.0 libglib-2.0.so.0 libgobject-2.0.so.0 libxcb-screensaver.so.0 libxcb-util.so.1 libxcb.so.1
+SHA1: b889f3a23acd6589d7c5009b5032de86a9fc2131
+SIZE: 48794
+USE: abi_x86_64 amd64 elibc_glibc kernel_linux man userland_GNU
+MTIME: 1537082628
+REPO: gentoo
+

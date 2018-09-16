@@ -1,0 +1,13 @@
+#!/bin/sh
+set -e
+if ( [ "$1" != git ] && [ "$1" != ntd5 ] ) \
+    || ( [ "$2" != true ] && [ "$2" != false ] ) ; then
+    echo "usage: $0 <target> <no-cache>"
+    echo
+    echo '    target:   git  | ntd5'
+    echo '    no-cache: true | false'
+    echo
+    exit 2
+fi
+cd "$(dirname "$0")/builder-$1"
+docker build "--no-cache=$2" -t "sabayon-builder-$1" .

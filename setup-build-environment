@@ -1,0 +1,10 @@
+case "$0" in
+    *setup-build-environment)
+        echo 'This file should be sourced, not executed.'
+        exit 1
+        ;;
+esac
+export DOCKER_IMAGE=sabayon-builder-ntd5
+export BUILDER_JOBS=6
+export EQUO_MIRRORSORT=0
+export SKIP_PORTAGE_SYNC=1

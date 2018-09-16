@@ -1,0 +1,8 @@
+#!/bin/sh
+set -e
+cd "$(dirname "$0")"
+source ./setup-build-environment
+docker run -ti --rm --cap-add=SYS_PTRACE \
+    -e LC_ALL=en_US.UTF-8 -e BUILDER_JOBS=6 -e ENTROPY_REPOSITORY=main -e SKIP_PORTAGE_SYNC=1 -e EQUO_MIRRORSORT=0 \
+    -v /home/ntd5/Packages/portage_artifacts/:/usr/portage/packages -v /home/ntd5/Packages/local_overlay:/usr/local/local_portage \
+    --init --entrypoint=/bin/bash sabayon-builder-ntd5

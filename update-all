@@ -1,0 +1,13 @@
+#!/bin/sh
+set -e
+if [ "$1" != true ] && [ "$1" != false ] ; then
+    echo "usage: $0 <no-cache>"
+    echo
+    echo '    no-cache: true | false'
+    echo
+    exit 2
+fi
+cd "$(dirname "$0")"
+./update-builder git "$1"
+./update-builder ntd5 "$1"
+./update-artifacts
