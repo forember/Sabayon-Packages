@@ -1,10 +1,10 @@
 #!/bin/sh
 set -e
-if ( [ "$1" != git ] && [ "$1" != qt5ct ] ) \
+if ( [ "$1" != git ] && [ "$1" != ntd5 ] && [ "$1" != haxe ] ) \
     || ( [ "$2" != true ] && [ "$2" != false ] ) ; then
     echo "usage: $0 <target> <no-cache>"
     echo
-    echo '    target:   git | qt5ct'
+    echo '    target:   git  | ntd5'
     echo '    no-cache: true | false'
     echo
     exit 2

@@ -3,8 +3,16 @@ set -e
 cd "$(dirname "$0")"
 rm -rf entropy_artifacts portage_artifacts
 source ./setup-build-environment
-sabayon-buildpackages x11-misc/xss-lock
-sabayon-buildpackages x11-misc/sxlock --layman andjscott
-sabayon-buildpackages net-misc/dropbox-cli
-sabayon-buildpackages sys-apps/findutils-glocate
+sabayon-buildpackages \
+    x11-misc/xss-lock \
+    net-misc/dropbox-cli \
+    sys-apps/findutils-glocate \
+    x11-misc/qt5ct \
+    net-wireless/blueberry
+sabayon-buildpackages \
+    x11-misc/sxlock \
+    --layman andjscott
+sabayon-buildpackages \
+    x11-misc/barrier \
+    --layman pixlra
 sabayon-createrepo

@@ -4,7 +4,7 @@ case "$0" in
         exit 1
         ;;
 esac
-export DOCKER_IMAGE=sabayon-builder-qt5ct
+export DOCKER_IMAGE=sabayon-builder-ntd5
 export BUILDER_JOBS=6
 export EQUO_MIRRORSORT=0
 export SKIP_PORTAGE_SYNC=1

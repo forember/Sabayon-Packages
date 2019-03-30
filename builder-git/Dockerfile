@@ -4,6 +4,7 @@ ENV HOME /root
 WORKDIR /
 RUN equo --color up
 RUN yes 3 | equo --color u
+RUN yes 3 | equo --color i gcc
 RUN git clone https://github.com/Sabayon/devkit
 WORKDIR /devkit
 RUN make install
